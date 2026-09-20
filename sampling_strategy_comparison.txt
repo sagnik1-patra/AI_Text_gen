@@ -1,0 +1,124 @@
+
+===========================================================================
+Greedy
+===========================================================================
+
+
+Lord Marshal:
+Sound, trumpets; and set forward, combatants.
+Stay, the king hath thrown his warder to the sea,
+And there is a sign and the state of the seas
+That I have strange to the senate of the sea,
+And there is a sign and the state of the seas
+That I have strange to the senate of the sea,
+And there is a sign and the state of the seas
+That I have strange to the senate of the sea,
+And there is a sign and the state of the seas
+That I have strange to the senate of the sea,
+And there is a sign and the state of the seas
+That I have strange to the senate of the sea,
+And there is a sign and the 
+
+
+===========================================================================
+Temperature 1.0
+===========================================================================
+
+
+Lord Marshal:
+Sound, trumpets; and set forward, combatants.
+Stay, the king hath thrown his warder to-morrow.
+I'll fare it to the king: I'll do not be datchmen's.
+So you more being as to my purpose,
+To have to not have comfort my death,
+To which be now the people. Rush if 'tis true deate,
+That I bid me men to pass to Lost,
+My brother is a gentleman in thy steel;
+But look or bed! Where's this trouble that
+I must live 't is coming: yet I small pray;
+And by those sweet Claudio! if thou dost guess?
+Belike a fear with weet a bways a limen,
+We are luck his bid of nicles jot his love:
+I would die no
+
+
+===========================================================================
+Top-k 5
+===========================================================================
+
+
+Lord Marshal:
+Sound, trumpets; and set forward, combatants.
+Stay, the king hath thrown his warder is some prayard.
+
+POMPEY:
+I will not see the provest.
+
+LUCIO:
+Will you say, alive it well he is such all;
+For he had shame to the person; I am be heart,
+And truth thou with your hands; as thou wert to be a speak.
+
+DUKE VINCENTIO:
+I do the was to-morrow warrant,
+I carry that I must needly make have
+To tell thee in my sight, and set, mother,--
+
+ESCALUS:
+Sir, that's me, what is your services and bed?
+
+DUKE VINCENTIO:
+And so sound this is the perfort was stars.
+
+DUKE VINCENTIO:
+Where is the charity 
+
+
+===========================================================================
+Top-k 10
+===========================================================================
+
+
+Lord Marshal:
+Sound, trumpets; and set forward, combatants.
+Stay, the king hath thrown his warder and traitor,
+And to-morrow shall he can being try withal.
+A horse hath stain am his foots; to have in womed.
+Whom if you shall be my fortune, this death!
+What, art thou mayst thou tewlest some comes me
+Thou shalt, so dauly take as your miles
+Fair, monour mistress with have beat, and thy highness;
+Which a worships was his done.
+
+POMPEY:
+My son and lady by here, honour hath
+that you do with your mowels his provents; I am all it:
+Away: as you are moved: it was save it.
+
+LUCIO:
+The sight will seek o
+
+
+===========================================================================
+Top-p 0.9
+===========================================================================
+
+
+Lord Marshal:
+Sound, trumpets; and set forward, combatants.
+Stay, the king hath thrown his warder marriage.
+That with them death is well of mine ere I marry,
+Have won his torrs and perceive as love,
+When shower him death or should prepared him as you:
+No bond, my she, unhappy lordship to desire to
+best weep; dear soldiers shall from the wit with her of his
+to your to call our fairest, by I disterble own.
+
+MISHREN MERGIA:
+No, this is assisted dorset for your world.
+
+Second Servant:
+Be more in his pate is battle.
+I would have not is seem'd to be you were.
+I have not for my wearies here; you ar
+

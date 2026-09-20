@@ -1,0 +1,28 @@
+{
+    "project": "Character-Level RNN Text Generation",
+    "dataset": "Shakespeare Complete Works",
+    "sequence_length": 100,
+    "stride": 3,
+    "embedding_dimension": 128,
+    "hidden_size": 256,
+    "dropout": 0.3,
+    "batch_size": 128,
+    "epochs": 30,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "gradient_clipping": 5.0,
+    "train_split": 0.9,
+    "validation_split": 0.1,
+    "sampling_methods": [
+        "greedy",
+        "temperature",
+        "top-k",
+        "top-p"
+    ],
+    "temperatures": [
+        0.2,
+        0.5,
+        1.0,
+        1.2
+    ]
+}

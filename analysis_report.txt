@@ -1,0 +1,178 @@
+
+CHARACTER-LEVEL RECURRENT NEURAL NETWORK FOR TEXT GENERATION
+=============================================================
+
+PROJECT
+-------
+Character-Level RNN for Text Generation using Shakespeare Corpus
+
+
+DATASET
+-------
+Dataset: Shakespeare Complete Works
+
+Total Characters:
+1115394
+
+Vocabulary Size:
+65
+
+Sequence Length:
+100
+
+Sliding Window Stride:
+3
+
+Training Split:
+90%
+
+Validation Split:
+10%
+
+
+LSTM ARCHITECTURE
+-----------------
+Embedding Dimension:
+128
+
+First LSTM:
+256 units with return_sequences=True
+
+Dropout:
+0.3
+
+Second LSTM:
+256 units
+
+Output:
+Dense layer with 65 classes and Softmax activation
+
+
+TRAINING
+--------
+Optimizer:
+Adam
+
+Learning Rate:
+0.001
+
+Batch Size:
+128
+
+Maximum Epochs:
+30
+
+Gradient Clipping:
+5.0
+
+
+LSTM RESULTS
+------------
+Validation Loss:
+1.5492
+
+Validation Accuracy:
+0.5522
+
+Perplexity:
+4.7079
+
+
+GRU RESULTS
+-----------
+Validation Loss:
+1.5772
+
+Validation Accuracy:
+0.5395
+
+Perplexity:
+4.8413
+
+
+TEMPERATURE EFFECT
+------------------
+Temperature 0.2 produces conservative and predictable text.
+
+Temperature 0.5 generally improves coherence while maintaining some
+variation.
+
+Temperature 1.0 provides balanced sampling.
+
+Temperature 1.2 increases creativity and diversity but can also increase
+spelling and grammatical errors.
+
+
+SAMPLING METHODS
+----------------
+Greedy sampling always selects the highest probability character.
+
+Temperature sampling changes the sharpness of the predicted probability
+distribution.
+
+Top-k sampling restricts character selection to the k most probable
+characters.
+
+Top-p or nucleus sampling selects from the smallest group of characters
+whose cumulative probability reaches p.
+
+
+LSTM VS GRU
+-----------
+Both LSTM and GRU use gating mechanisms to address problems associated
+with learning longer dependencies in vanilla recurrent networks.
+
+GRU generally contains fewer parameters because its gating architecture
+is simpler.
+
+LSTM maintains both hidden state and cell state, allowing more explicit
+control over long-term information.
+
+
+CHARACTER PATTERNS
+------------------
+The trained character-level model learns several characteristics of the
+training corpus, including:
+
+1. Character combinations
+2. Word boundaries
+3. Capitalization
+4. Punctuation
+5. Newline structure
+6. Common words
+7. Shakespeare-like dialogue formatting
+
+
+SEQUENCE LENGTH
+---------------
+A shorter sequence reduces computation and training time but gives the
+model less historical context.
+
+A longer sequence provides more context but increases memory usage and
+training time.
+
+Sequence lengths 50, 100 and 200 were experimentally compared.
+
+
+LIMITATIONS
+-----------
+The character-level model learns words one character at a time. It may
+therefore produce realistic-looking words and Shakespeare-like formatting
+without maintaining semantic consistency over a long passage.
+
+Long-range dependencies remain challenging for recurrent models,
+especially when the generated passage becomes much longer than the
+training sequence.
+
+
+POTENTIAL IMPROVEMENTS
+----------------------
+1. Attention mechanism
+2. Three-layer LSTM
+3. Larger hidden state
+4. Larger training corpus
+5. Word-level language model
+6. Transformer comparison
+7. Hyperparameter optimization
+8. Beam-search generation
+9. Web-based real-time generation interface
