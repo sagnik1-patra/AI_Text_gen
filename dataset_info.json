@@ -1,0 +1,14 @@
+{
+    "dataset": "Shakespeare Complete Works",
+    "total_characters": 1115394,
+    "unique_characters": 65,
+    "sequence_length": 100,
+    "stride": 3,
+    "training_split": 0.9,
+    "validation_split": 0.1,
+    "embedding_dimension": 128,
+    "hidden_size": 256,
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "gradient_clip_norm": 5.0
+}
